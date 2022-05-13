@@ -7,6 +7,9 @@
         {
             "title":"cars",
             "items":["bmw","hundi","maruthi","benz"]
+        },{
+            "title":"bikes",
+            "items":["pulser","ninja","kawasaki","bmw"]
         }
     ]
 }

@@ -63,9 +63,11 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource{
     }
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         if let headerView = view as? UITableViewHeaderFooterView {
-            headerView.contentView.backgroundColor = .yellow
-            headerView.backgroundView?.backgroundColor = .black
-            headerView.textLabel?.textColor = .red
+            headerView.textLabel?.textAlignment = .center
+            headerView.contentView.backgroundColor = .black
+            headerView.textLabel?.highlightedTextColor = .red
+            headerView.textLabel?.font = .italicSystemFont(ofSize: 15)
+            headerView.textLabel?.textColor = .green
         }
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
