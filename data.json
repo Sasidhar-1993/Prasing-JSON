@@ -1,0 +1,12 @@
+{
+   "data": [
+        {
+            "title":"names",
+            "items":["sasi","hi","welcome"]
+        },
+        {
+            "title":"cars",
+            "items":["bmw","hundi","maruthi","benz"]
+        }
+    ]
+}
